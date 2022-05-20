@@ -1,9 +1,9 @@
 name: yfi-buyer
 plugins:
-  - vyper
-  - solidity
-  - tokens
-  - hardhat
+  - name: vyper
+  - name: solidity
+  - name: tokens
+  - name: hardhat
 ethereum:
   default_network: mainnet-fork
   mainnet_fork:
